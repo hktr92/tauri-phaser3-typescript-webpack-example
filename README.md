@@ -7,6 +7,9 @@ This repository is targeted for those who wants to make a desktop game using Pha
 ## About this example
 Assets are taken from [here - Phaser 3 + ES6 + Webpack](https://github.com/nkholski/phaser3-es6-webpack).
 
+Currently, I only implemented the "bouncy logo" but with Mario assets.
+![Running example](gh/bouncy-shell.png)
+
 ## Why Tauri?
 I've tried to get started with both Electron and nw.js, but there were some issues I've encountered listed below.
 

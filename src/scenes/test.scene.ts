@@ -25,7 +25,7 @@ export class TestScene extends BaseScene {
     public create (): void {
         const scale_factor = this.game_width / this.game_height * window.devicePixelRatio
 
-        this.#shell = this.add.sprite(0, 0, 'mario-sprites', 32)
+        this.#shell = this.add.sprite(0, 0, 'mario-sprites', 33)
         this.#shell.setData('velocity', [1.5 * scale_factor, 1.5 * scale_factor])
 
         console.log('scaling factor = ', scale_factor)
