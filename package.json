@@ -1,0 +1,49 @@
+{
+  "name": "aventurile-lui-flipper-pt1",
+  "version": "1.0.0",
+  "description": "Jocul 'Aventurile lui Flipper', partea 1",
+  "main": "dist/index.html",
+  "author": "Petru Szemereczki <szemereczkipetru@tazz.ro>",
+  "license": "PROPRIETARY",
+  "private": true,
+  "browserslist": [
+    "defaults"
+  ],
+  "scripts": {
+    "build:webpack": "encore production",
+    "build:tauri": "tauri build",
+    "build": "encore production && tauri build",
+    "dev:webpack": "encore dev",
+    "dev:tauri": "tauri dev",
+    "dev": "encore dev && tauri dev",
+    "dev-server": "encore dev-server",
+    "tauri": "tauri"
+  },
+  "devDependencies": {
+    "@symfony/webpack-encore": "^1.1.2",
+    "@types/axios": "^0.14.0",
+    "@types/express": "^4.17.11",
+    "@types/lodash": "^4.14.168",
+    "@types/luxon": "^1.26.3",
+    "autoprefixer": "^10.2.5",
+    "core-js": "^3.9.1",
+    "express": "^4.17.1",
+    "file-loader": "^6.2.0",
+    "postcss": "^8.2.9",
+    "postcss-loader": "^5.2.0",
+    "tauri": "^0.14.1",
+    "ts-loader": "^8.0.18",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3",
+    "webpack-notifier": "^1.13.0"
+  },
+  "dependencies": {
+    "@tauri-apps/tauri-forage": "^1.0.0-beta.2",
+    "axios": "^0.21.1",
+    "lodash-es": "^4.17.21",
+    "luxon": "^1.26.0",
+    "phaser": "^3.54",
+    "phaser-animated-tiles": "^2.0.2",
+    "webfontloader": "^1.6.28"
+  }
+}

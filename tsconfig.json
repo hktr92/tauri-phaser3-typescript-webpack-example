@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": false,
+    "moduleResolution": "Node",
+    "module": "commonjs",
+    "target": "ES2015",
+    "allowJs": true
+  },
+  "include": [
+    "**/*.ts"
+  ],
+  "types": [
+    "phaser"
+  ]
+}

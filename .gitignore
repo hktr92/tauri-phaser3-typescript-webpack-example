@@ -1,0 +1,16 @@
+# Node environment
+**/node_modules
+**/dist
+**/yarn-error.log
+
+## Rust target
+**/target
+
+## General backup files
+**/*.*~
+**/*.bak
+
+## Jetbrains IDE stuff
+.idea/workspace.xml
+.idea/**.iml
+.idea/modules.xml
